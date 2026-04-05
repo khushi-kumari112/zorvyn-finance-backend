@@ -246,31 +246,15 @@ GET http://localhost:8080/api/dashboard/monthly-trend
 Authorization: Bearer <analyst_token>
 Expected: breakdown for Feb, March, April 2026
 
-````
-finance/
-└── screenshots/
-├── 01-login.png
-├── 02-dashboard-summary.png
-├── 03-pagination.png
-├── 04-access-denied.png
-└── 05-validation-error.png
-,,,
 
----
 
-## API Screenshots
+API Screenshots
 
-### Login — JWT Token Generated
-![Login](screenshots/01-login.png)
+<img width="1920" height="1080" alt="Screenshot (552)" src="https://github.com/user-attachments/assets/43efae88-7629-4b9b-a3a1-510e2ec7b9cd" />
+<img width="1920" height="1080" alt="Screenshot (553)" src="https://github.com/user-attachments/assets/f2b6c48d-4ffc-4db7-ba7d-63be20069146" />
+<img width="1920" height="1080" alt="Screenshot (554)" src="https://github.com/user-attachments/assets/048b7438-7081-478b-85e5-1fabe77362f2" />
+<img width="1920" height="1080" alt="Screenshot (555)" src="https://github.com/user-attachments/assets/927d00c9-5605-4040-b13e-5ec026218c60" />
+<img width="1920" height="1080" alt="Screenshot (556)" src="https://github.com/user-attachments/assets/aeeeec31-92f8-4309-a2ea-efa401c97b3f" />
+<img width="1920" height="1080" alt="Screenshot (557)" src="https://github.com/user-attachments/assets/46cf5e8b-994d-4120-bb46-ae9c7267481d" />
+<img width="1920" height="1080" alt="Screenshot (558)" src="https://github.com/user-attachments/assets/1749dffb-ea8a-43df-9b06-ea09b067b032" />
 
-### Dashboard Summary — Real Calculated Data
-![Dashboard Summary](screenshots/02-dashboard-summary.png)
-
-### Paginated Records — Page 0, Size 5
-![Pagination](screenshots/03-pagination.png)
-
-### Access Control — Viewer Blocked with 403
-![Access Denied](screenshots/04-access-denied.png)
-
-### Validation — Invalid Input Rejected
-![Validation Error](screenshots/05-validation-error.png)
