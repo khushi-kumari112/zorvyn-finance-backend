@@ -1,0 +1,12 @@
+package com.zorvyn.finance.dto;
+
+import lombok.*;
+
+@Data
+@AllArgsConstructor
+public class AuthResponse {
+    private String token;
+    private String role;
+    private String name;
+    private String email;
+}
